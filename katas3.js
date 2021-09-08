@@ -4,7 +4,8 @@ function showResults(x) {
     let numeros = x.toString()
     resultado.innerText= "Resultado " + numeros;
     let pagina = document.querySelector("body");
-    return pagina.appendChild(resultado);
+    pagina.appendChild(resultado);
+    return numeros
 
 }
 
@@ -19,7 +20,8 @@ function kata1() {
             lista.push(i)
         }
     
-     return showResults(lista);
+        const resultado = showResults(lista);
+        return resultado;
 }
 
 function kata2() {
@@ -32,7 +34,8 @@ function kata2() {
     for (let i = 25; i > 0; i--) { 
             lista.push(i);
     }
-     return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata3() {
@@ -46,8 +49,8 @@ function kata3() {
             lista.push(i*-1)
         
     }
-     return showResults(lista);
-
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata4() {
@@ -60,7 +63,8 @@ function kata4() {
     for (let i = 25; i > 0; i--) { 
             lista.push(i*-1);
     }
-     return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata5() {
@@ -75,7 +79,8 @@ function kata5() {
                 lista.push(i);
         }
     } 
-        return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata6() {
@@ -90,7 +95,8 @@ function kata6() {
                 lista.push(i);
         }
     } 
-        return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata7() {
@@ -105,7 +111,8 @@ function kata7() {
                 lista.push(i);
         }
     } 
-        return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata8() {
@@ -123,7 +130,8 @@ function kata8() {
                 lista.push(i)
             }
     } 
-        return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata9() {
@@ -138,7 +146,8 @@ function kata9() {
                 lista.push(i);
         }
     } 
-        return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata10() {
@@ -147,7 +156,8 @@ function kata10() {
     kata.innerText = "Katas 10:"
     let principal = document.querySelector("body")
     principal.appendChild(kata);
-    return showResults(sampleArray)
+    const resultado = showResults(sampleArray);
+    return resultado;
 }
 
 function kata11() {
@@ -162,7 +172,8 @@ function kata11() {
                 lista.push(sampleArray[i]);
         }
     } 
-        return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata12() {
@@ -177,7 +188,8 @@ function kata12() {
                 lista.push(sampleArray[i]);
         }
     } 
-        return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata13() {
@@ -192,7 +204,8 @@ function kata13() {
                 lista.push(sampleArray[i]);
         }
     } 
-        return showResults(lista);
+    const resultado = showResults(lista);
+    return resultado;
 }
 
 function kata14() {
@@ -206,7 +219,8 @@ function kata14() {
             lista.push(sampleArray[i]**2);
         }
     
-        return showResults(lista);
+        const resultado = showResults(lista);
+        return resultado;
 }
 
 function kata15() {
@@ -219,7 +233,8 @@ function kata15() {
         for (let i = 0; i <= 20; i++) {
             soma += i;
         }
-    return showResults(soma)
+        const resultado = showResults(soma);
+        return resultado;
 }
 
 function kata16() {
@@ -232,7 +247,8 @@ function kata16() {
         for (let i = 0; i < sampleArray.length; i++) {
             soma += sampleArray[i];
         }
-    return showResults(soma)
+        const resultado = showResults(soma);
+        return resultado;
 }
 
 function kata17() {
@@ -247,7 +263,8 @@ function kata17() {
                 elemento = sampleArray[i]
             }
         }
-    return showResults(elemento)
+        const resultado = showResults(elemento);
+        return resultado;
 }
 
 function kata18() {
@@ -262,7 +279,8 @@ function kata18() {
                 elemento = sampleArray[i]
             }
         }
-    return showResults(elemento)
+        const resultado = showResults(elemento);
+        return resultado;
 }
 
 /**
