@@ -271,7 +271,10 @@ function kata18() {
 
 function kataBonus1() {
     // implemente o código do kata bonus 1 aqui
+    let kata = document.createElement("p");
+    kata.innerText = "Katas Bonus 1:"
     let principal = document.querySelector("body");
+    principal.appendChild(kata);
     for (let i = 0; i < 20; i++) {
         let retangulo = document.createElement("div");
         principal.appendChild(retangulo);
@@ -286,7 +289,10 @@ function kataBonus1() {
 
 function kataBonus2() {
     // implemente o código do kata bonus 2 aqui
+    let kata = document.createElement("p");
+    kata.innerText = "Katas Bonus 2:"
     let principal = document.querySelector("body");
+    principal.appendChild(kata);
     for (let i = 1; i <= 20; i++) {
         let incremento = i*5 + 100;
         incremento.toString();
@@ -303,7 +309,10 @@ function kataBonus2() {
 
 function kataBonus3() {
     // implemente o código do kata bonus 3 aqui
+    let kata = document.createElement("p");
+    kata.innerText = "Katas Bonus 3:"
     let principal = document.querySelector("body");
+    principal.appendChild(kata);
     for (let i = 0; i < sampleArray.length; i++) {
         let largura = sampleArray[i];
         largura.toString();
@@ -321,7 +330,10 @@ function kataBonus3() {
 
 function kataBonus4() {
     // implemente o código do kata bonus 4 aqui
+    let kata = document.createElement("p");
+    kata.innerText = "Katas Bonus 4:"
     let principal = document.querySelector("body");
+    principal.appendChild(kata);
     for (let i = 0; i < sampleArray.length; i++) {
         let largura = sampleArray[i];
         largura.toString();
@@ -341,7 +353,10 @@ function kataBonus4() {
 
 function kataBonus5() {
     // implemente o código do kata bonus 5 aqui
+    let kata = document.createElement("p");
+    kata.innerText = "Katas Bonus 5:"
     let principal = document.querySelector("body");
+    principal.appendChild(kata);
     for (let i = 0; i < sampleArray.length; i++) {
             let largura = sampleArray[i];
             largura.toString();
@@ -358,3 +373,26 @@ function kataBonus5() {
             }
     }
 }
+kata1()
+kata2()
+kata3()
+kata4()
+kata5()
+kata6()
+kata7()
+kata8()
+kata9()
+kata10()
+kata11()
+kata12()
+kata13()
+kata14()
+kata15()
+kata16()
+kata17()
+kata18()
+kataBonus1()
+kataBonus2()
+kataBonus3()
+kataBonus4()
+kataBonus5()
