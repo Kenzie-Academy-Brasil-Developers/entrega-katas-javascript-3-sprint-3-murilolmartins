@@ -4,8 +4,8 @@ function showResults(x) {
     let numeros = x.toString()
     resultado.innerText= "Resultado " + numeros;
     let pagina = document.querySelector("body");
-    pagina.appendChild(resultado);
-    return numeros
+    return pagina.appendChild(resultado);
+
 
 }
 
@@ -20,8 +20,8 @@ function kata1() {
             lista.push(i)
         }
     
-        const resultado = showResults(lista);
-        return resultado;
+        showResults(lista);
+        return lista;
 }
 
 function kata2() {
@@ -34,8 +34,8 @@ function kata2() {
     for (let i = 25; i > 0; i--) { 
             lista.push(i);
     }
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata3() {
@@ -49,8 +49,8 @@ function kata3() {
             lista.push(i*-1)
         
     }
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata4() {
@@ -63,8 +63,8 @@ function kata4() {
     for (let i = 25; i > 0; i--) { 
             lista.push(i*-1);
     }
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata5() {
@@ -79,8 +79,8 @@ function kata5() {
                 lista.push(i);
         }
     } 
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata6() {
@@ -95,8 +95,8 @@ function kata6() {
                 lista.push(i);
         }
     } 
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata7() {
@@ -111,8 +111,8 @@ function kata7() {
                 lista.push(i);
         }
     } 
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata8() {
@@ -130,8 +130,8 @@ function kata8() {
                 lista.push(i)
             }
     } 
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata9() {
@@ -146,8 +146,8 @@ function kata9() {
                 lista.push(i);
         }
     } 
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata10() {
@@ -156,8 +156,8 @@ function kata10() {
     kata.innerText = "Katas 10:"
     let principal = document.querySelector("body")
     principal.appendChild(kata);
-    const resultado = showResults(sampleArray);
-    return resultado;
+    showResults(sampleArray);
+    return sampleArray;
 }
 
 function kata11() {
@@ -172,8 +172,8 @@ function kata11() {
                 lista.push(sampleArray[i]);
         }
     } 
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata12() {
@@ -188,8 +188,8 @@ function kata12() {
                 lista.push(sampleArray[i]);
         }
     } 
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata13() {
@@ -204,8 +204,8 @@ function kata13() {
                 lista.push(sampleArray[i]);
         }
     } 
-    const resultado = showResults(lista);
-    return resultado;
+    showResults(lista);
+    return lista;
 }
 
 function kata14() {
@@ -219,8 +219,8 @@ function kata14() {
             lista.push(sampleArray[i]**2);
         }
     
-        const resultado = showResults(lista);
-        return resultado;
+        showResults(lista);
+        return lista;
 }
 
 function kata15() {
@@ -233,8 +233,8 @@ function kata15() {
         for (let i = 0; i <= 20; i++) {
             soma += i;
         }
-        const resultado = showResults(soma);
-        return resultado;
+        showResults(soma);
+        return soma;
 }
 
 function kata16() {
@@ -247,8 +247,8 @@ function kata16() {
         for (let i = 0; i < sampleArray.length; i++) {
             soma += sampleArray[i];
         }
-        const resultado = showResults(soma);
-        return resultado;
+        showResults(soma);
+        return soma;
 }
 
 function kata17() {
@@ -263,8 +263,8 @@ function kata17() {
                 elemento = sampleArray[i]
             }
         }
-        const resultado = showResults(elemento);
-        return resultado;
+        showResults(elemento);
+        return elemento;
 }
 
 function kata18() {
@@ -279,8 +279,8 @@ function kata18() {
                 elemento = sampleArray[i]
             }
         }
-        const resultado = showResults(elemento);
-        return resultado;
+        showResults(elemento);
+        return elemento;
 }
 
 /**
